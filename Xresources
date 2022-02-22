@@ -1,0 +1,87 @@
+! special
+*background:   #262626
+!*background:   #263238
+*foreground:   #ffffff
+!*.cursorColor:  #ffffff
+
+! black
+*color0:       #282a2e
+*color8:       #373b41
+
+! red
+*color1:       #ab7967
+*color9:       #f77669
+
+! green
+*color2:       #c3e88d
+*color10:      #ffcb6b
+
+! yellow
+*color3:       #e4e88d
+*color11:      #ffab6b
+
+! blue
+*color4:       #0b9baf
+*color12:      #00bcd4
+
+! magenta
+*color5:       #c792ea
+*color13:      #af0b8c
+
+! cyan
+*color6:       #009587
+*color14:      #1de9b6
+
+! white
+*color7:       #555f64
+*color15:      #cfd8dc
+
+Xcursor.theme: DMZ-White
+
+
+!URxvt.font:                xft:consolas\-font:pixelsize=18:
+URxvt.font:                xft:JetBrainsMono-Medium:pixelsize=20:
+!URxvt.font:                 xft:xos4 Terminus:pixelsize=18:
+!URxvt.boldFont:            xft:xos4 Terminus:pixelsize=18:bold
+!URxvt.italicFont:          xft:xos4 Terminus:pixelsize=18:italic
+!URxvt.boldItalicFont:      xft:xos4 Terminus:pixelsize=18:bold:italic
+!
+
+URxvt.letterSpace:         -2
+
+
+URxvt.externalBorder:      0
+
+URxvt.scrollBar:           false
+
+URxvt*fading:              0
+
+!URxvt.perl-ext-common:     matcher,resize-font,fullscreen
+
+!URxvt.keysym.F11:          perl:fullscreen:switch
+
+!URxvt.resize-font.smaller: C-Down
+!URxvt.resize-font.bigger:  C-Up
+
+URxvt.url-launcher:        /usr/bin/firefox
+URxvt.keysym.M-Delete:     perl:matcher:list
+URxvt.colorUL:             #7780a1
+
+
+! Set terminal padding
+URxvt.internalBorder: 0
+!
+! do not scroll with output
+URxvt.scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt.scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt.scrollTtyKeypress: true
+
+
+
+! Change icon
+!URxvt.iconFile:            /usr/share/icons/breeze/apps/32/utilities-terminal.svg
+!URxvt.iconFile:            /usr/share/icons/breeze/apps/64/utilities-terminal.svg

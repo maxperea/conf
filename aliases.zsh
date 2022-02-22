@@ -1,0 +1,14 @@
+alias al="vim ~/.oh-my-zsh/custom/aliases.zsh"
+alias e="emacs"
+alias paths="vim ~/.oh-my-zsh/custom/paths.zsh"
+alias h="history"
+alias p="okular"
+alias rl="source ~/.zshrc"
+alias xc="xclip -selection clipboard -i"
+alias upd="sudo apt update && sudo apt upgrade"
+alias pp="sed '1,4d;\$d;' | sed '\$d;' | python -m json.tool"
+alias skola="madu3814@siegbahn.it.uu.se"
+alias popcorn=".apps/popcorn/Popcorn-Time"
+alias antlr4='java -jar /usr/local/lib/antlr-4.9.1-complete.jar'
+alias grun='java org.antlr.v4.gui.TestRig'
+alias fznp='/home/max/Desktop/cbls/src/fznparser/build/fznparser'
