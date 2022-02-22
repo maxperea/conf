@@ -14,6 +14,6 @@
 (setq straight-use-package-by-default t)
 (straight-use-package 'use-package)
 
-(load "~/.emacs_conf/config.el")
-(load "~/.emacs_conf/modules.el")
-(load "~/.emacs_conf/keys.el")
+(load "~/.conf/config.el")
+(load "~/.conf/modules.el")
+(load "~/.conf/keys.el")

@@ -1,0 +1,1 @@
+(load "~/.conf/init.el")
